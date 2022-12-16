@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 17%);
+  background-image: url("../../images/dog.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 600px 600px;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  margin: 4em 7em;
+}
+
+.main > .main--heading {
+  color: hsl(30, 65%, 92%);
+  margin-bottom: 1em;
+}
+
+.main > .main--list {
+  color: hsl(30, 65%, 92%);
+  font-size: 1.2rem;
+  margin-left: 1.7em;
+  line-height: 1.8em;
+  max-width: 45em;
+}
+
+.main--list > li::marker {
+  color: hsl(25, 63%, 72%);
+}
